@@ -182,3 +182,22 @@ button img {
 /* End of Form- Box */
 
 /* start of footer */
+
+footer {
+
+    margin: 20px auto;
+    text-align: center;
+    font-size: 13px;
+    color: #505050;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 5px;
+}
+
+li {
+    padding: 5px;
+}
+
