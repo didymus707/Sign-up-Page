@@ -96,4 +96,16 @@ body {
     margin: 10px 5px 15px;
   }
   
-  
+/* start of form-box design */
+
+.form-box {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-box {
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
