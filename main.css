@@ -16,7 +16,7 @@ body {
 .sign-in-area-container {
     display: flex;
     justify-content: flex-end;
-    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #505050;
 }
@@ -37,7 +37,8 @@ body {
     margin-left: 10px;
 }
 
-#forgot-password {
+/* all anchor tags design */
+a {
     text-decoration: none;
     color: #0077c5;
 }
@@ -65,7 +66,7 @@ body {
 
 .main {
     width: 350px;
-    padding: 30px;
+    padding: 0 30px 3px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -97,15 +98,46 @@ body {
   }
   
 /* start of form-box design */
-
 .form-box {
+    width: 400px;
     margin: 0 auto;
-    text-align: center;
+    border: 1px solid #b7b7b7cf;
+    border-radius: 5px;
+    padding: 30px;
+    background: white;
 }
 
-.form-box {
-    width: 350px;
-    margin: 0 auto;
-    padding: 30px;
-    
+form {
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: none;
+}
+
+.heading {
+    color: #4c4c4c;
+    text-align: center;
+    padding-bottom: 18px;
+    line-height: 1.4;
+}
+
+h2 {
+    padding-bottom: 17px;
+}
+
+.heading a {
+    font-size: 12px;
+}
+
+label {
+    display: block;
+}
+
+label input {
+    width: 100%;
+    border: 1px solid #c6c7cc;
+    margin-top: 10px 0;
 }
