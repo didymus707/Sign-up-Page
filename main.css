@@ -16,7 +16,7 @@ body {
 .sign-in-area-container {
     display: flex;
     justify-content: flex-end;
-    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     color: #505050;
 }
@@ -66,7 +66,7 @@ a {
 
 .main {
     width: 350px;
-    padding: 0 30px 3px;
+    padding: 0 30 3px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -98,15 +98,19 @@ a {
   }
   
 /* start of form-box design */
+
 .form-box {
-    width: 400px;
     margin: 0 auto;
-    border: 1px solid #b7b7b7cf;
-    border-radius: 5px;
-    padding: 30px;
-    background: white;
+    
 }
 
+.form-box {
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #b7b7b7cf;
+    background-color: white;
+}
 form {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -140,4 +144,5 @@ label input {
     width: 100%;
     border: 1px solid #c6c7cc;
     margin-top: 10px 0;
+    padding: 5px;
 }
