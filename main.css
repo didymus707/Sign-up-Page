@@ -98,23 +98,17 @@ a {
   }
   
 /* start of form-box design */
-
 .form-box {
-    margin: 0 auto;
-    
-}
-
-.form-box {
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 400px;
     margin: 0 auto;
-    padding: 30px;
     border: 1px solid #b7b7b7cf;
-    background-color: white;
 }
 form {
-    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
+    background-color: white;
+    padding: 30px;
 }
 
 fieldset {
@@ -156,7 +150,7 @@ button {
     width: 100%;
     border-radius: 3px;
     color: white;
-    padding: 14px; 
+    padding: 15px; 
     background-size: contain; 
     background-repeat: no-repeat;
     font-size: 16px;
@@ -171,12 +165,20 @@ button img {
 .terms {
     text-align: center;
     font-style: italic;
-    padding: 35px 0;
+    padding: 35px 0 8px;
     line-height: 1.8;
     font-size: 12px;
     color: #757575;
 }
 
 .captcha {
-    background-color: #8d9096;
+    background-color: #eceef1;
+    padding: 10px;
+    font-size: 10px;
+    font-style: italic;
+    color: #8d9096;
+    text-align: center;
 }
+/* End of Form- Box */
+
+/* start of footer */
