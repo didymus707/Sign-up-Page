@@ -80,7 +80,6 @@ a:hover {
 }
 
 .main img {
-    width: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -93,16 +92,26 @@ a:hover {
 
 .logo-container {
     display: flex;
+    margin-right: 18px;
   }
 
   .logo-container > img {
-    margin-right: 15px;
+    margin-right: 4px;
   }
 
   .logo {
-    width: 60px;
-    height: 19px;
+    width: 23px;
+    height: 23px;
     margin: 10px 5px 15px;
+  }
+
+  .logo-word {
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    align-self: center;
+    padding-bottom: 6px;
   }
   /* end of main logo*/
   
