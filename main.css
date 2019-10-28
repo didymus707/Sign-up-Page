@@ -1,10 +1,7 @@
-* {
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
     background: #eceef1;
 }
 
@@ -41,6 +38,15 @@ body {
 a {
     text-decoration: none;
     color: #0077c5;
+}
+
+/* when anchor tags are hovered on */
+a:hover {
+    text-decoration: underline;
+}
+
+#forgot-password:hover {
+    text-decoration: none;
 }
 
 .sign-in {
