@@ -114,7 +114,7 @@ a:hover {
     padding-bottom: 6px;
   }
   /* end of main logo*/
-  
+
 /* start of form-box design */
 .form-box {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -160,7 +160,7 @@ input {
     border: 1px solid #c6c7cc;
     margin: 12px 0;
     padding: 8px;
-    border-radius: 3px;   
+    border-radius: 3px;
 }
 
 button {
@@ -169,8 +169,8 @@ button {
     width: 100%;
     border-radius: 3px;
     color: white;
-    padding: 15px; 
-    background-size: contain; 
+    padding: 15px;
+    background-size: contain;
     background-repeat: no-repeat;
     font-size: 16px;
     cursor: pointer;
