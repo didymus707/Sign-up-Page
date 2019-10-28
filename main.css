@@ -13,7 +13,7 @@ body {
 .sign-in-area-container {
     display: flex;
     justify-content: flex-end;
-    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #505050;
 }
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .sign-in {
-    background: #0077C5;
+    background: #0077c5;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
     padding: 9px;
