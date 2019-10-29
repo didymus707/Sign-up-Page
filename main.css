@@ -113,9 +113,11 @@ a:hover {
     align-self: center;
     padding-bottom: 6px;
 }
-  /* end of main logo*/
+
+/* end of main logo */
 
 /* start of form-box design */
+
 .form-box {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 400px;
@@ -164,8 +166,8 @@ input {
 }
 
 button {
-    background: #0077C5;
-    border: #0077C5;
+    background: #0077c5;
+    border: #0077c5;
     width: 100%;
     border-radius: 3px;
     color: white;
@@ -176,7 +178,7 @@ button {
     cursor: pointer;
 }
 
-button img {
+.btn img {
     width: 15px;
     height: 15px;
     margin-right: 7px;
@@ -199,6 +201,7 @@ button img {
     color: #8d9096;
     text-align: center;
 }
+
 /* End of Form- Box */
 
 /* start of footer */
@@ -224,4 +227,5 @@ footer span {
     font-size: 11px;
     line-height: 1.5;
 }
+
 /* end of footer */
