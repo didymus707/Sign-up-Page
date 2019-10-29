@@ -61,7 +61,7 @@ a:hover {
 
 .lock-img {
     height: 1em;
-    width: .8em;
+    width: 0.8em;
     margin-top: 2px;
     margin-right: 4px;
     vertical-align: text-top;
@@ -93,26 +93,26 @@ a:hover {
 .logo-container {
     display: flex;
     margin-right: 18px;
-  }
+}
 
-  .logo-container > img {
-    margin-right: 4px;
-  }
+.logo-container > img {
+margin-right: 4px;
+}
 
-  .logo {
-    width: 23px;
-    height: 23px;
-    margin: 10px 5px 15px;
-  }
+.logo {
+width: 23px;
+height: 23px;
+margin: 10px 5px 15px;
+}
 
-  .logo-word {
-    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 1.5;
-    align-self: center;
-    padding-bottom: 6px;
-  }
+.logo-word {
+font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: normal;
+font-size: 15px;
+line-height: 1.5;
+align-self: center;
+padding-bottom: 6px;
+}
   /* end of main logo*/
 
 /* start of form-box design */
