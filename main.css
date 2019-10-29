@@ -96,22 +96,22 @@ a:hover {
 }
 
 .logo-container > img {
-margin-right: 4px;
+    margin-right: 4px;
 }
 
 .logo {
-width: 23px;
-height: 23px;
-margin: 10px 5px 15px;
+    width: 23px;
+    height: 23px;
+    margin: 10px 5px 15px;
 }
 
 .logo-word {
-font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-font-weight: normal;
-font-size: 15px;
-line-height: 1.5;
-align-self: center;
-padding-bottom: 6px;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    align-self: center;
+    padding-bottom: 6px;
 }
   /* end of main logo*/
 
@@ -126,7 +126,7 @@ padding-bottom: 6px;
 form {
     font-size: 14px;
     font-weight: 400;
-    background-color: white;
+    background-color: #fff;
     padding: 30px;
 }
 
