@@ -1,8 +1,12 @@
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     background: #eceef1;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .sign-in-area-wrapper {
@@ -13,7 +17,6 @@ body {
 .sign-in-area-container {
     display: flex;
     justify-content: flex-end;
-    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #505050;
 }
@@ -119,7 +122,6 @@ a:hover {
 /* start of form-box design */
 
 .form-box {
-    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 400px;
     margin: 0 auto;
     border: 1px solid #b7b7b7cf;
@@ -165,6 +167,20 @@ input {
     border-radius: 3px;
 }
 
+#phone {
+    margin-bottom: 3px;
+}
+
+.info {
+    font-size: 10px;
+    color: #404040;
+}
+
+.pw-lock {
+    background: url(images/lock-left.png) 0 50%/21px 21px no-repeat;
+    width: 33px;
+}
+
 button {
     background: #0077c5;
     border: #0077c5;
@@ -195,7 +211,7 @@ button {
 
 .captcha {
     background-color: #eceef1;
-    padding: 10px;
+    padding: 17px;
     font-size: 10px;
     font-style: italic;
     color: #8d9096;
@@ -206,7 +222,6 @@ button {
 
 /* start of footer */
 footer {
-    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 20px auto;
     text-align: center;
     font-size: 12px;
