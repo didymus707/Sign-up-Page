@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eceef1;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sign-in-area-wrapper {
+    padding: 10px 30px;
+    height: 60px;
+}
+
+.sign-in-area-container {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    color: #505050;
+}
+
+.forgot-user-id-box {
+    font-size: 12px;
+    margin-left: 10px;
+    text-align: right;
+    align-self: center;
+}
+
+.forgot-user-id-box div {
+    margin-bottom: 7px;
+}
+
+.sign-in-box {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* all anchor tags design */
+a {
+    text-decoration: none;
+    color: #0077c5;
+}
+
+/* when anchor tags are hovered on */
+a:hover {
+    text-decoration: underline;
+}
+
+#forgot-password:hover {
+    text-decoration: none;
+}
+
+.sign-in {
+    background: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    padding: 9px;
+    width: 103px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.lock-img {
+    height: 1em;
+    width: 0.8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* start of main logo */
+.main {
+    width: 350px;
+    padding: 0 30 3px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.main-image {
+    height: 60px;
+}
+
+.logo-container {
+    display: flex;
+    margin-right: 18px;
+}
+
+.logo-container > img {
+    margin-right: 4px;
+}
+
+.logo {
+    width: 23px;
+    height: 23px;
+    margin: 10px 5px 15px;
+}
+
+.logo-word {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    align-self: center;
+    padding-bottom: 6px;
+}
+
+/* end of main logo */
+
+/* start of form-box design */
+
+.form-box {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #b7b7b7cf;
+}
+
+form {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+.heading {
+    color: #4c4c4c;
+    text-align: center;
+    padding-bottom: 18px;
+    line-height: 1.4;
+}
+
+h2 {
+    padding-bottom: 17px;
+}
+
+.heading a {
+    font-size: 12px;
+}
+
+label {
+    display: block;
+    color: #404040;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #c6c7cc;
+    margin: 12px 0;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+#phone {
+    margin-bottom: 3px;
+}
+
+.info {
+    font-size: 10px;
+    color: #404040;
+}
+
+.pw-lock {
+    background: url(images/lock-left.png) 0 50%/21px 21px no-repeat;
+    width: 33px;
+}
+
+button {
+    background: #0077c5;
+    border: #0077c5;
+    width: 100%;
+    border-radius: 3px;
+    color: white;
+    padding: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+}
+
+.terms {
+    text-align: center;
+    font-style: italic;
+    padding: 35px 0 8px;
+    line-height: 1.8;
+    font-size: 12px;
+    color: #757575;
+}
+
+.captcha {
+    background-color: #eceef1;
+    padding: 17px;
+    font-size: 10px;
+    font-style: italic;
+    color: #8d9096;
+    text-align: center;
+}
+
+/* End of Form- Box */
+
+/* start of footer */
+footer {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 5px;
+}
+
+li {
+    padding: 2px;
+}
+
+footer span {
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+/* end of footer */
